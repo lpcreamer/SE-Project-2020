@@ -1,6 +1,6 @@
-# PawtyGuards
+# PawPals
 
-PawtyGuards is a volunteer pet-sitting service that links pet-owners to pet-sitters and aspiring pet-owners looking for experience caring for various pets.
+PawPals is a volunteer pet-sitting service that links pet-owners to pet-sitters and aspiring pet-owners looking for experience caring for various pets.
 
 ## Installation
 
