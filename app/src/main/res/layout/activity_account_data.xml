@@ -1,0 +1,142 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountDataActivity">
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/ada_header"
+            style="@style/HeaderTextStyle"
+            android:gravity="center"
+            android:text="@string/ada_header"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/ada_username"
+            style="@style/TableTextStyle"
+            android:gravity="center"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/ada_name"
+            style="@style/EditTextStyle"
+            android:gravity="center"
+            android:hint="@string/ada_name"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/ada_email"
+            style="@style/EditTextStyle"
+            android:gravity="center"
+            android:hint="@string/ada_email_address"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/ada_phone_number"
+            style="@style/EditTextStyle"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="@string/ada_phone_number"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/ada_street_address"
+            style="@style/EditTextStyle"
+            android:gravity="center"
+            android:hint="@string/ada_street_address"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/ada_city"
+            style="@style/EditTextStyle"
+            android:gravity="center"
+            android:hint="@string/ada_city"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/ada_state"
+            style="@style/EditTextStyle"
+            android:gravity="center"
+            android:hint="@string/ada_state"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/ada_zip_code"
+            style="@style/EditTextStyle"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="@string/ada_zip_code"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/ada_password"
+            style="@style/EditTextStyle"
+            android:gravity="center"
+            android:hint="@string/ada_password"
+            android:inputType="textPassword"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/ada_confirm_password"
+            style="@style/EditTextStyle"
+            android:gravity="center"
+            android:hint="@string/aac_confirm_password"
+            android:inputType="textPassword"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <Button
+            android:id="@+id/ada_edit_button"
+            style="@style/ButtonStyle"
+            android:gravity="center"
+            android:text="@string/ada_save_button"
+            android:onClick="onClick"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/ada_label"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            />
+    </TableRow>
+
+</TableLayout>

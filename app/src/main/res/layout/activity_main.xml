@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <TableRow
+        style="@style/TableRowStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="94dp"
+            android:layout_height="220dp"
+            app:srcCompat="@drawable/stay_and_play" />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/ma_title"
+            style="@style/HeaderTextStyle"
+            android:text="@string/ma_title"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/ma_login_button"
+            android:text="@string/ma_login_button"
+            android:onClick="login"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/ma_create_account_button"
+            android:text="@string/ma_create_account_button"
+            android:onClick="createAccount"
+            />
+    </TableRow>
+
+</TableLayout>

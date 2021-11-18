@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="260dp"
+            android:layout_height="166dp"
+            app:srcCompat="@drawable/stay_and_play" />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/al_username"
+            android:gravity="center"
+            android:hint="@string/al_username"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/al_password"
+            android:gravity="center"
+            android:hint="@string/al_password"
+            android:inputType="textPassword"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/al_login_button"
+            android:text="@string/al_login_button"
+            android:onClick="login"
+            />
+    </TableRow>
+
+
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/al_label"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            />
+    </TableRow>
+
+
+
+</TableLayout>

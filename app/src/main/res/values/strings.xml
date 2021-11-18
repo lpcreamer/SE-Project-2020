@@ -1,0 +1,93 @@
+<resources>
+
+    <string name="app_name">Software Engineering</string>
+    <string name="ma_title"><b>Pawdyguards</b></string>
+    <string name="ma_login_button">Log In</string>
+    <string name="ma_create_account_button">Create Account</string>
+
+    <string name="al_username">Username</string>
+    <string name="al_password">Password</string>
+    <string name="al_login_button">Log In</string>
+    <string name="al_forgot_password_button">Forgot Password?</string>
+
+    <!-- Create Account Activity -->
+    <string name="aac_username">Username</string>
+    <string name="aac_name">Name</string>
+    <string name="aac_email">Email Address</string>
+    <string name="aac_phone_number">Phone Number</string>
+    <string name="aac_street_address">Street Address</string>
+    <string name="aac_city">City</string>
+    <string name="aac_state">State</string>
+    <string name="aac_zip_code">Zip Code</string>
+    <string name="aac_password">Password</string>
+    <string name="aac_confirm_password">Confirm Password</string>
+    <string name="aac_create_account_button">Create Account</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="password_invalid">Invalid password!</string>
+    <string name="password_mismatch">Passwords do not match!</string>
+    <string name="age_invalid">Age must be a number!</string>
+    <string name="email_invalid">Email is invalid!</string>
+    <string name="empty_field">All fields must be filled!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_listings">Listings</string>
+    <string name="menu_bookings">Bookings</string>
+    <string name="menu_rewards">Rewards</string>
+
+    <!-- Account Fragment (AF)-->
+    <string name="af_header">Account</string>
+    <string name="af_username">Username</string>
+    <string name="af_name">Name</string>
+    <string name="af_email_address">Email Address</string>
+    <string name="af_phone_number">Phone Number</string>
+    <string name="af_street_address">Street Address</string>
+    <string name="af_city">City</string>
+    <string name="af_state">State</string>
+    <string name="af_zip_code">Zip Code</string>
+    <string name="af_password">Password</string>
+    <string name="af_edit_button">Edit Profile</string>
+    <string name="af_save_button">Save Profile</string>
+
+    <!-- Account Data Activity (ADA) -->
+    <string name="ada_header">Account</string>
+    <string name="ada_username">Username</string>
+    <string name="ada_name">Name</string>
+    <string name="ada_email_address">Email Address</string>
+    <string name="ada_phone_number">Phone Number</string>
+    <string name="ada_street_address">Street Address</string>
+    <string name="ada_city">City</string>
+    <string name="ada_state">State</string>
+    <string name="ada_zip_code">Zip Code</string>
+    <string name="ada_password">Password</string>
+    <string name="ada_edit_button">Edit Profile</string>
+    <string name="ada_save_button">Save Profile</string>
+
+    <string name="back_button">Back</string>
+    <string name="title_activity_profile_data">ProfileData</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hf_title">Welcome!</string>
+    <string name="pawprint" />
+    <string name="textview">TextView</string>
+    <string name="book_this_listing">Book this Listings!</string>
+
+    <string name="li_heading">Listings</string>
+    <string name="li_info_button">view info</string>
+    <string name="bi_info_button">View Info</string>
+    <string name="cancel_booking">Cancel Booking</string>
+    <string name="network_error">Network Error!</string>
+    <string name="rf_current_rewards_points">Current Rewards Points:</string>
+    <string name="rf_tip">Rewards points are earned by completing pet sittings!</string>
+
+
+</resources>

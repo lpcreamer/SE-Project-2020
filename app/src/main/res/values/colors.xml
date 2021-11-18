@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#dddeed</color>
+    <color name="colorHeading">#484954</color>
+    <color name="colorBodyLight">#88868f</color>
+    <color name="colorBodyDark">#000000</color>
+    <color name="colorInteractive">#9a94b0</color>
+    <color name="colorHighlight">#8f96e3</color>
+</resources>

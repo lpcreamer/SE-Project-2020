@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountCreateActivity">
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/aac_username"
+            android:gravity="center"
+            android:hint="@string/aac_username"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/aac_name"
+            android:gravity="center"
+            android:hint="@string/aac_name"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/aac_email"
+            android:gravity="center"
+            android:hint="@string/aac_email"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/aac_phone_number"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="@string/aac_phone_number"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/aac_street_address"
+            android:gravity="center"
+            android:hint="@string/aac_street_address"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/aac_city"
+            android:gravity="center"
+            android:hint="@string/aac_city"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/aac_state"
+            android:gravity="center"
+            android:hint="@string/aac_state"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/aac_zip_code"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="@string/aac_zip_code"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/aac_password"
+            android:gravity="center"
+            android:hint="@string/aac_password"
+            android:inputType="textPassword"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <EditText
+            android:id="@+id/aac_confirm_password"
+            android:gravity="center"
+            android:hint="@string/aac_confirm_password"
+            android:inputType="textPassword"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/aac_create_account_button"
+            android:gravity="center"
+            android:text="@string/aac_create_account_button"
+            android:onClick="createAccount"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/aac_label"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            />
+    </TableRow>
+
+</TableLayout>

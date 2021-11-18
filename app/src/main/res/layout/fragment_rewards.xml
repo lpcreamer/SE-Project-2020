@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.rewards.RewardsFragment">
+
+    <TableRow
+        style="@style/TableTextStyle">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/rf_current_rewards_points" />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableTextStyle">
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0" />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableTextStyle">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/rf_tip" />
+    </TableRow>
+
+</TableLayout>

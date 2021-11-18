@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.account.AccountFragment">
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:id="@+id/fa_header"
+            android:gravity="center"
+            android:text="@string/af_header"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/TableTextStyle"
+            android:id="@+id/fa_username"
+            android:gravity="center"
+            android:text="@string/af_username"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/TableTextStyle"
+            android:id="@+id/fa_name"
+            android:gravity="center"
+            android:text="@string/af_name"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/TableTextStyle"
+            android:id="@+id/fa_email_address"
+            android:gravity="center"
+            android:text="@string/af_email_address"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/TableTextStyle"
+            android:id="@+id/fa_phone_number"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="@string/af_phone_number"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/TableTextStyle"
+            android:id="@+id/fa_street_address"
+            android:gravity="center"
+            android:hint="@string/af_street_address"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/TableTextStyle"
+            android:id="@+id/fa_city"
+            android:gravity="center"
+            android:hint="@string/af_city"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/TableTextStyle"
+            android:id="@+id/fa_state"
+            android:gravity="center"
+            android:hint="@string/af_state"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/TableTextStyle"
+            android:id="@+id/fa_zip_code"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="@string/af_zip_code"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/TableTextStyle"
+            android:id="@+id/fa_password"
+            android:gravity="center"
+            android:text="@string/aac_password"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/fa_edit_button"
+            android:gravity="center"
+            android:text="@string/af_edit_button"
+            />
+    </TableRow>
+
+</TableLayout>

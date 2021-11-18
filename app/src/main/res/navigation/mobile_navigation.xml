@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mattkinloch.softwareengineering.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.mattkinloch.softwareengineering.ui.account.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/nav_listings"
+        android:name="com.mattkinloch.softwareengineering.ui.listings.ListingsFragment"
+        android:label="@string/menu_listings"
+        tools:layout="@layout/fragment_listings" />
+
+    <fragment
+        android:id="@+id/nav_bookings"
+        android:name="com.mattkinloch.softwareengineering.ui.bookings.BookingsFragment"
+        android:label="@string/menu_bookings"
+        tools:layout="@layout/fragment_bookings" />
+
+    <fragment
+        android:id="@+id/nav_rewards"
+        android:name="com.mattkinloch.softwareengineering.ui.rewards.RewardsFragment"
+        android:label="@string/menu_rewards"
+        tools:layout="@layout/fragment_rewards" />
+
+</navigation>

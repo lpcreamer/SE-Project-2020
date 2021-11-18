@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TableRow
+        style="@style/TableRowStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="94dp"
+            android:layout_height="220dp"
+            app:srcCompat="@drawable/stay_and_play" />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:id="@+id/hf_title"
+            android:gravity="center"
+            android:text="@string/hf_title"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle"/>
+
+</TableLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TableRow
+        android:id="@+id/li_listing">
+        <TextView
+            android:id="@+id/li_pet_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            style='@style/TableTextStyle'
+            />
+
+        <TextView
+            android:id="@+id/formatting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    "
+            style="@style/TableTextStyle"
+            />
+
+        <Button
+            android:id="@+id/li_info_button"
+            style="@style/ButtonStyle"
+            android:text="@string/li_info_button"
+            />
+
+    </TableRow>
+
+
+</TableLayout>

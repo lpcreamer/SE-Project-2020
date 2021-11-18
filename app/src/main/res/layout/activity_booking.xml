@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ListingActivity">
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/booking_pet_name"
+            style="@style/TableTextStyle"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/booking_pet_type"
+            style="@style/TableTextStyle"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/booking_pet_breed"
+            style="@style/TableTextStyle"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/booking_pet_weight"
+            style="@style/TableTextStyle"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/booking_owner_name"
+            style="@style/TableTextStyle"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/booking_description"
+            style="@style/TableTextStyle"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/booking_pet_care_instructions"
+            style="@style/TableTextStyle"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/booking_date"
+            style="@style/TableTextStyle"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/booking_start_time"
+            style="@style/TableTextStyle"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <TextView
+            android:id="@+id/booking_duration"
+            style="@style/TableTextStyle"
+            />
+    </TableRow>
+
+    <TableRow
+        style="@style/TableRowStyle">
+        <Button
+            android:id="@+id/cancel_button"
+            style="@style/ButtonStyle"
+            android:text="@string/cancel_booking"
+            android:onClick="onClick"
+            />
+    </TableRow>
+
+</TableLayout>
